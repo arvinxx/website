@@ -6385,10 +6385,10 @@ cross-env@^7.0.0:
   dependencies:
     cross-spawn "^7.0.1"
 
-cross-fetch@^3.0.6:
-  version "3.0.6"
-  resolved "https://registry.npm.taobao.org/cross-fetch/download/cross-fetch-3.0.6.tgz?cache=0&sync_timestamp=1599789182189&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcross-fetch%2Fdownload%2Fcross-fetch-3.0.6.tgz#3a4040bc8941e653e0e9cf17f29ebcd177d3365c"
-  integrity sha1-OkBAvIlB5lPg6c8X8p680XfTNlw=
+cross-fetch@^3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/cross-fetch/-/cross-fetch-3.1.2.tgz#ee0c2f18844c4fde36150c2a4ddc068d20c1bc41"
+  integrity sha512-+JhD65rDNqLbGmB3Gzs3HrEKC0aQnD+XA3SY6RjgkF88jV2q5cTc5+CwxlS3sdmLk98gpPt5CF9XRnPdlxZe6w==
   dependencies:
     node-fetch "2.6.1"
 
@@ -11137,11 +11137,6 @@ joi2types@~1.1.0:
   integrity sha1-ufLMUEqbhuI57/judEwNT8CHGUc=
   dependencies:
     json-schema-to-typescript "^10.1.2"
-
-js-md5@^0.7.3:
-  version "0.7.3"
-  resolved "https://registry.npm.taobao.org/js-md5/download/js-md5-0.7.3.tgz#b4f2fbb0b327455f598d6727e38ec272cd09c3f2"
-  integrity sha1-tPL7sLMnRV9ZjWcn447Ccs0Jw/I=
 
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
@@ -17643,6 +17638,11 @@ source-map@^0.7.3, source-map@~0.7.2:
   resolved "https://registry.npm.taobao.org/source-map/download/source-map-0.7.3.tgz?cache=0&sync_timestamp=1606747929782&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsource-map%2Fdownload%2Fsource-map-0.7.3.tgz#5302f8169031735226544092e64981f751750383"
   integrity sha1-UwL4FpAxc1ImVECS5kmB91F1A4M=
 
+spark-md5@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/spark-md5/-/spark-md5-3.0.1.tgz#83a0e255734f2ab4e5c466e5a2cfc9ba2aa2124d"
+  integrity sha512-0tF3AGSD1ppQeuffsLDIOWlKUd3lS92tFxcsrh5Pe3ZphhnoK+oXIBTzOAThZCiuINZLvpiLH/1VS1/ANEJVig==
+
 spawn-error-forwarder@~1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/spawn-error-forwarder/download/spawn-error-forwarder-1.0.0.tgz#1afd94738e999b0346d7b9fc373be55e07577029"
@@ -20287,13 +20287,13 @@ zlib@1.0.5:
   resolved "https://registry.npm.taobao.org/zlib/download/zlib-1.0.5.tgz#6e7c972fc371c645a6afb03ab14769def114fcc0"
   integrity sha1-bnyXL8NxxkWmr7A6sUdp3vEU/MA=
 
-zotero-api-client@^0.34.2:
-  version "0.34.2"
-  resolved "https://registry.yarnpkg.com/zotero-api-client/-/zotero-api-client-0.34.2.tgz#bd24fe68626dfff883407e3a632191f6e13c77c0"
-  integrity sha512-clD3S6WjJciYIW/8cIGbQzYgPzxOWP9BDDUTnugat8Oyds6HY+rMlUE2fYUWs6X0jb7JqGtNkpAkFZa2ka5b0w==
+zotero-api-client@^0.36.0:
+  version "0.36.0"
+  resolved "https://registry.yarnpkg.com/zotero-api-client/-/zotero-api-client-0.36.0.tgz#36969f4fa8cad0da3f4ad0645796db3d720f86c2"
+  integrity sha512-SbjrSBGQh8Eo/Gry6i0WO4lIoWVTJlIos3axWqPG0A37OSd2GYY2cim79ZbW8zGdeIw0WAjRx+DaheXGynu5fw==
   dependencies:
-    cross-fetch "^3.0.6"
-    js-md5 "^0.7.3"
+    cross-fetch "^3.1.2"
+    spark-md5 "^3.0.1"
 
 zscroller@~0.4.0:
   version "0.4.8"
