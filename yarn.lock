@@ -3317,10 +3317,10 @@
     dva-immer "^0.5.2"
     dva-loading "^3.0.20"
 
-"@umijs/plugin-esbuild@^1.0.1":
-  version "1.1.0"
-  resolved "https://registry.npm.taobao.org/@umijs/plugin-esbuild/download/@umijs/plugin-esbuild-1.1.0.tgz#d5b30ea1fd7a903e9f601dc76cb1c3849b78db8d"
-  integrity sha1-1bMOof16kD6fYB3HbLHDhJt4240=
+"@umijs/plugin-esbuild@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@umijs/plugin-esbuild/-/plugin-esbuild-1.1.1.tgz#abb4669731102c07232de9c60e55b62cb0d0913e"
+  integrity sha512-PdE0baXUfjn2/h3OPoF6QD1f8w5LC1nHTHg0i8mj0WcoJ+zgkNgMiiXefIH3VM7ypZL1Qv2HGzh4gynwGqrF0A==
   dependencies:
     esbuild-loader "~2.6.3"
 
