@@ -55,7 +55,7 @@
     "moment": "^2.25.3",
     "nprogress": "^0.2.0",
     "omit.js": "^2.0.2",
-    "pdfjs-dist": "^2.6.347",
+    "pdfjs-dist": "^2.7.570",
     "qs": "^6.10.1",
     "react": "^17.0.0",
     "react-dev-inspector": "^1.4.1",
