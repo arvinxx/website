@@ -67,15 +67,15 @@
     umi-utils "^1.5.1"
     yargs-parser "^20.0.0"
 
-"@ant-design/pro-descriptions@^1.6.9":
-  version "1.6.9"
-  resolved "https://registry.yarnpkg.com/@ant-design/pro-descriptions/-/pro-descriptions-1.6.9.tgz#dec3d27044fe848cf2b1551a039a434f4c715138"
-  integrity sha512-2AIgDseRWNkDrl5pfbIqcp7gF5qgVioTETJ8vBGzAIMqJy3RmnvD0awn1waKoVV10pPRykTfsv/Hpgh8I8YuFQ==
+"@ant-design/pro-descriptions@^1.8.3":
+  version "1.8.3"
+  resolved "https://registry.yarnpkg.com/@ant-design/pro-descriptions/-/pro-descriptions-1.8.3.tgz#acbdf37820702276e4d1e9d7c9e9610efd0b37e7"
+  integrity sha512-yx+B/q3zy6OMfo1e8MhoKTAP/0PEoR+NPM6YF8y2mhNpzYodv2mJ1vpKiJkCeVserlO5rXPY8G0s1dko30LyzA==
   dependencies:
-    "@ant-design/pro-field" "1.12.0"
-    "@ant-design/pro-form" "1.18.4"
-    "@ant-design/pro-skeleton" "1.0.0-beta.13"
-    "@ant-design/pro-utils" "1.15.0"
+    "@ant-design/pro-field" "1.18.6"
+    "@ant-design/pro-form" "1.29.1"
+    "@ant-design/pro-skeleton" "1.0.1"
+    "@ant-design/pro-utils" "1.19.2"
     rc-util "^5.0.6"
     use-json-comparison "^1.0.5"
 
@@ -95,7 +95,23 @@
     react-color "2.19.3"
     swr "^0.3.6"
 
-"@ant-design/pro-form@1.18.4", "@ant-design/pro-form@^1.16.3":
+"@ant-design/pro-field@1.18.6":
+  version "1.18.6"
+  resolved "https://registry.yarnpkg.com/@ant-design/pro-field/-/pro-field-1.18.6.tgz#ee09d2f3413fd7bcadad8c11073b0e76d25edd6c"
+  integrity sha512-8DyghS8cYW7QrsD8NLJnpBLWnmWMDSuCF/Zlpkt0GyWqEsFwdQpeAWA4tzXxb5r60a+Pq7QCNd1bnXiZaAqUZw==
+  dependencies:
+    "@ant-design/icons" "^4.2.1"
+    "@ant-design/pro-provider" "1.4.14"
+    "@ant-design/pro-utils" "1.19.2"
+    classnames "^2.2.6"
+    lodash.tonumber "^4.0.3"
+    moment "^2.27.0"
+    omit.js "^2.0.2"
+    rc-util "^5.4.0"
+    react-color "2.19.3"
+    swr "^0.5.6"
+
+"@ant-design/pro-form@1.18.4":
   version "1.18.4"
   resolved "https://registry.yarnpkg.com/@ant-design/pro-form/-/pro-form-1.18.4.tgz#641a287b8f12091ca872981be7aad06b80664aae"
   integrity sha512-Hwo6J2smDJWNMsjizC5ohhi4kqaClj0mmaXeKUeMOjgnt6Uur+kxXtgWiQ88xAZVhhOpIRSiRc1AJIkaxMFgsw==
@@ -106,6 +122,23 @@
     "@ant-design/pro-utils" "1.15.0"
     "@umijs/use-params" "^1.0.2"
     classnames "^2.2.6"
+    omit.js "^2.0.2"
+    rc-resize-observer "^0.2.3"
+    rc-util "^5.0.6"
+    use-media-antd-query "^1.0.6"
+
+"@ant-design/pro-form@1.29.1", "@ant-design/pro-form@^1.16.3":
+  version "1.29.1"
+  resolved "https://registry.yarnpkg.com/@ant-design/pro-form/-/pro-form-1.29.1.tgz#40fdf4fb19e498e57384d395f6e64eaacd96ade1"
+  integrity sha512-t5GpO+edyFQVAgBjSRXkcyXyRchrfqoVTPZp0pC3o5bp/WTe3a0RQ1D4YQZQ+wh25KB1HE2GFzF2Ul3s8J0bWA==
+  dependencies:
+    "@ant-design/icons" "^4.2.1"
+    "@ant-design/pro-field" "1.18.6"
+    "@ant-design/pro-provider" "1.4.14"
+    "@ant-design/pro-utils" "1.19.2"
+    "@umijs/use-params" "^1.0.2"
+    classnames "^2.2.6"
+    lodash.merge "^4.6.2"
     omit.js "^2.0.2"
     rc-resize-observer "^0.2.3"
     rc-util "^5.0.6"
@@ -131,6 +164,13 @@
     use-media-antd-query "^1.0.6"
     warning "^4.0.3"
 
+"@ant-design/pro-provider@1.4.14":
+  version "1.4.14"
+  resolved "https://registry.yarnpkg.com/@ant-design/pro-provider/-/pro-provider-1.4.14.tgz#468b522eb818e16c97fb53200fc1413525a47d8c"
+  integrity sha512-yhtNVLgLICnUgtJpYSwG/FF997IPs0Rnpl/4yEwljW8NJHld4ZgZDez2CSW0adb//jRm0/hD0F89a3BYb7RYhw==
+  dependencies:
+    rc-util "^5.0.1"
+
 "@ant-design/pro-provider@1.4.8":
   version "1.4.8"
   resolved "https://registry.yarnpkg.com/@ant-design/pro-provider/-/pro-provider-1.4.8.tgz#6dd5c293f1f4ae79a12c75a8a99356220c69f3de"
@@ -138,10 +178,10 @@
   dependencies:
     rc-util "^5.0.1"
 
-"@ant-design/pro-skeleton@1.0.0-beta.13":
-  version "1.0.0-beta.13"
-  resolved "https://registry.yarnpkg.com/@ant-design/pro-skeleton/-/pro-skeleton-1.0.0-beta.13.tgz#9c51f39fcafab2a6614e5c7cc251b78bf357368a"
-  integrity sha512-Ngn8vBKny9QL7dXcbTus84gTcDAQsUn/ZbPCYnkKIA9/LpKTkPLG3tgCNEwKh50DYL+3gpAWr6wHcFkg/d22dg==
+"@ant-design/pro-skeleton@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@ant-design/pro-skeleton/-/pro-skeleton-1.0.1.tgz#419a0f88c5d544043ae0035eb3aa35494813e959"
+  integrity sha512-vzdqJoVq0fqNEqak9uZfkA1idPgxX2h5LY2AvN3rWHYM7qtP3MSYEgJ+gmvwXSFytH32nOHrhHeV+vUN7RlG9g==
   dependencies:
     use-media-antd-query "^1.0.6"
 
@@ -174,6 +214,20 @@
     fast-deep-equal "^3.1.3"
     moment "^2.27.0"
     rc-util "^5.0.6"
+
+"@ant-design/pro-utils@1.19.2":
+  version "1.19.2"
+  resolved "https://registry.yarnpkg.com/@ant-design/pro-utils/-/pro-utils-1.19.2.tgz#83071e1b434a955da7deb6037ca2630902b3db4e"
+  integrity sha512-nk0STnqXxm/DMGsZP3cdxgzjRs3qcF4g0maNtaSpMJEfaGpNSh7htMf4TIFH9Zc01GGCqXUiNxAxCgjQIQDjig==
+  dependencies:
+    "@ant-design/icons" "^4.3.0"
+    "@ant-design/pro-provider" "1.4.14"
+    classnames "^2.2.6"
+    fast-deep-equal "^3.1.3"
+    lodash.merge "^4.6.2"
+    moment "^2.27.0"
+    rc-util "^5.0.6"
+    swr "^0.5.6"
 
 "@ant-design/react-slick@~0.28.1":
   version "0.28.2"
@@ -9765,6 +9819,11 @@ lodash.memoize@4.1.2:
   resolved "https://registry.npm.taobao.org/lodash.memoize/download/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
   integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
 
+lodash.merge@^4.6.2:
+  version "4.6.2"
+  resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
+  integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
+
 lodash.sortby@^4.7.0:
   version "4.7.0"
   resolved "https://registry.npm.taobao.org/lodash.sortby/download/lodash.sortby-4.7.0.tgz#edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
@@ -15304,6 +15363,13 @@ swr@^0.3.6:
   version "0.3.11"
   resolved "https://registry.npm.taobao.org/swr/download/swr-0.3.11.tgz#f7f50ed26c06afea4249482cec504768a2272664"
   integrity sha1-9/UO0mwGr+pCSUgs7FBHaKInJmQ=
+  dependencies:
+    dequal "2.0.2"
+
+swr@^0.5.6:
+  version "0.5.6"
+  resolved "https://registry.yarnpkg.com/swr/-/swr-0.5.6.tgz#70bfe9bc9d7ac49a064be4a0f4acf57982e55a31"
+  integrity sha512-Bmx3L4geMZjYT5S2Z6EE6/5Cx6v1Ka0LhqZKq8d6WL2eu9y6gHWz3dUzfIK/ymZVHVfwT/EweFXiYGgfifei3w==
   dependencies:
     dequal "2.0.2"
 
