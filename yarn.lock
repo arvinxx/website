@@ -1270,6 +1270,11 @@
   resolved "https://registry.npm.taobao.org/@bcoe/v8-coverage/download/@bcoe/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha1-daLotRy3WKdVPWgEpZMteqznXDk=
 
+"@bloomberg/record-tuple-polyfill@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@bloomberg/record-tuple-polyfill/-/record-tuple-polyfill-0.0.3.tgz#0b03d18b88a30894caab14abd669b1cbbf47b843"
+  integrity sha512-sBnCqW0nqofE47mxFnw+lvx6kzsQstwaQMVkh66qm/A6IlsnH7WsyGuVXTou8RF2wL4W7ybOoHPvP2WgIo6rhQ==
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
   resolved "https://registry.npm.taobao.org/@cnakazawa/watch/download/@cnakazawa/watch-1.0.4.tgz#f864ae85004d0fcab6f50be9141c4da368d1656a"
@@ -2594,12 +2599,26 @@
   resolved "https://registry.yarnpkg.com/@umijs/babel-plugin-auto-css-modules/-/babel-plugin-auto-css-modules-3.4.7.tgz#5084a206eda12988b6b6bc7c64c7d15b3fd4a8a4"
   integrity sha512-H9Dq2V+tn4SJEmKpa7PQetyPNBzCGQWGUmkyPd3thk+tUwgUOGYt4NZGKZpUIAFvIyXCS8JFfYoGQMMqDbsYQg==
 
+"@umijs/babel-plugin-auto-css-modules@3.5.8":
+  version "3.5.8"
+  resolved "https://registry.yarnpkg.com/@umijs/babel-plugin-auto-css-modules/-/babel-plugin-auto-css-modules-3.5.8.tgz#4241a70f80e840866e8d65bd2824b356b45853ec"
+  integrity sha512-JZvuqg1c+hfs5EVVQnLhEluuIPyzecRD2V8cKghmFmQmNIRW35R2t2sfaaRGSdMtl/CFve8RI7dmTZ9YELF7SA==
+  dependencies:
+    "@umijs/utils" "3.5.8"
+
 "@umijs/babel-plugin-import-to-await-require@3.4.7":
   version "3.4.7"
   resolved "https://registry.yarnpkg.com/@umijs/babel-plugin-import-to-await-require/-/babel-plugin-import-to-await-require-3.4.7.tgz#1164fb2cde1c5ad614b8ba47342d28fd08d4eaa0"
   integrity sha512-kfJD+6LoaVsq7i5ii9DErBcuxSp+sw7+AalhWIyEef9MWKM8fW0oLxvUUuK3tgvdAn0V5v2JuaZWIFvUN/2S7w==
   dependencies:
     "@umijs/utils" "3.4.7"
+
+"@umijs/babel-plugin-import-to-await-require@3.5.8":
+  version "3.5.8"
+  resolved "https://registry.yarnpkg.com/@umijs/babel-plugin-import-to-await-require/-/babel-plugin-import-to-await-require-3.5.8.tgz#0e364ddfc663f07eaea173bc7ecff048702d5e6a"
+  integrity sha512-gmwxiVYY+MciQD0QvjBQdHRBc2HdinEAVZaiEgBnGCT1ODYsUZaNEBiDU//X00/P9ZL91SVYgOyP+UgHliUbKw==
+  dependencies:
+    "@umijs/utils" "3.5.8"
 
 "@umijs/babel-plugin-lock-core-js-3@3.4.7":
   version "3.4.7"
@@ -2609,12 +2628,27 @@
     "@umijs/utils" "3.4.7"
     core-js "3.6.5"
 
+"@umijs/babel-plugin-lock-core-js-3@3.5.8":
+  version "3.5.8"
+  resolved "https://registry.yarnpkg.com/@umijs/babel-plugin-lock-core-js-3/-/babel-plugin-lock-core-js-3-3.5.8.tgz#b59465f4cd2b8d48f994b95b50e967eea1761a1a"
+  integrity sha512-UE7i5o2aGdUS11Odff6ysipJiT6AzoOTlPni2GPHOMd/snrEB2cZGEylGE4+bZswKAZ4jkZ2RnMDuWlnJF37Xw==
+  dependencies:
+    "@umijs/utils" "3.5.8"
+    core-js "3.6.5"
+
 "@umijs/babel-plugin-no-anonymous-default-export@3.4.7":
   version "3.4.7"
   resolved "https://registry.yarnpkg.com/@umijs/babel-plugin-no-anonymous-default-export/-/babel-plugin-no-anonymous-default-export-3.4.7.tgz#6c74c45159ecf11ff377dbc7f37c1b2124649ea3"
   integrity sha512-/TwKP0p1ab9smFLwnG4fGaRAbY+OFoF+I60jMxqr1C9OZC0zfc4/62eUVxjBd6feD3UYVy5GTjDG3CqHIjdpxg==
   dependencies:
     "@umijs/utils" "3.4.7"
+
+"@umijs/babel-plugin-no-anonymous-default-export@3.5.8":
+  version "3.5.8"
+  resolved "https://registry.yarnpkg.com/@umijs/babel-plugin-no-anonymous-default-export/-/babel-plugin-no-anonymous-default-export-3.5.8.tgz#9c9cf38d7f28778aeca53aa2d7740c9d044c7e52"
+  integrity sha512-cO5/4ovfUA/6LRd1wYrK1d2TGVcaHjHF+etL7SRkXU6M/XYc4qwSOgNj6hRTutBqyZdFlIoYcp9sRsZJrgLmmg==
+  dependencies:
+    "@umijs/utils" "3.5.8"
 
 "@umijs/babel-preset-umi@3.4.7":
   version "3.4.7"
@@ -2626,6 +2660,18 @@
     "@umijs/babel-plugin-import-to-await-require" "3.4.7"
     "@umijs/babel-plugin-lock-core-js-3" "3.4.7"
     "@umijs/babel-plugin-no-anonymous-default-export" "3.4.7"
+
+"@umijs/babel-preset-umi@3.5.8":
+  version "3.5.8"
+  resolved "https://registry.yarnpkg.com/@umijs/babel-preset-umi/-/babel-preset-umi-3.5.8.tgz#b36a4c16ad2f6930a5b157b22c859271ec04f78b"
+  integrity sha512-TWZL891Xj73BTwUrkpwYqF7PdR2AGEAsEO8olzWg4jc4jwkX1waoa2dSbhvwgdLwEZTWiKRl+X85SzKYeDtKLQ==
+  dependencies:
+    "@babel/runtime" "7.12.5"
+    "@umijs/babel-plugin-auto-css-modules" "3.5.8"
+    "@umijs/babel-plugin-import-to-await-require" "3.5.8"
+    "@umijs/babel-plugin-lock-core-js-3" "3.5.8"
+    "@umijs/babel-plugin-no-anonymous-default-export" "3.5.8"
+    "@umijs/deps" "3.5.8"
 
 "@umijs/block-sdk@^2.2.2":
   version "2.2.2"
@@ -2700,6 +2746,18 @@
   dependencies:
     chokidar "3.5.1"
     clipboardy "2.3.0"
+    jest-worker "24.9.0"
+    prettier "2.2.1"
+
+"@umijs/deps@3.5.8":
+  version "3.5.8"
+  resolved "https://registry.yarnpkg.com/@umijs/deps/-/deps-3.5.8.tgz#c61b6c94811486c9f7254c0e0c24241d02033370"
+  integrity sha512-ov48QHVtoNgp/JHiQJCi90qJrQs9S18Cgqy/IcuxkMZuLgBZDWOPtU0lLYEXJYID91zHV8+gU5D7WS4dxw6wnA==
+  dependencies:
+    "@bloomberg/record-tuple-polyfill" "0.0.3"
+    chokidar "3.5.1"
+    clipboardy "2.3.0"
+    esbuild "0.12.15"
     jest-worker "24.9.0"
     prettier "2.2.1"
 
@@ -2974,14 +3032,14 @@
     "@umijs/deps" "0.7.1"
     "@umijs/utils" "3.4.7"
 
-"@umijs/test@^3.0.7", "@umijs/test@^3.4.7":
-  version "3.4.7"
-  resolved "https://registry.yarnpkg.com/@umijs/test/-/test-3.4.7.tgz#0b65132b2e4d69d1bdb3c6293d7ceae16df86e22"
-  integrity sha512-pk2w7gnWYGl6GSVbb7+DYG43zKChAlAzoA0kMjwORugohJXTP6Sl5dIwyTTAmO8eODDcIXF44eBrN1+NPR4bPQ==
+"@umijs/test@^3.0.7", "@umijs/test@^3.5.8":
+  version "3.5.8"
+  resolved "https://registry.yarnpkg.com/@umijs/test/-/test-3.5.8.tgz#eba106a6202eb4bf9d5f1e0c971d3ead82b28e5d"
+  integrity sha512-LtzviTQFaGm7YYn/31S4pJopxrcStWy3kRJRHYAC9Hee1UmYCaIYAD0b1iGPBusDUc/NaByXbHxjU82PxbGO5w==
   dependencies:
     "@babel/core" "7.12.10"
-    "@umijs/babel-preset-umi" "3.4.7"
-    "@umijs/utils" "3.4.7"
+    "@umijs/babel-preset-umi" "3.5.8"
+    "@umijs/utils" "3.5.8"
     babel-core "7.0.0-bridge.0"
     babel-jest "^26.6.3"
     core-js "3.8.2"
@@ -3009,12 +3067,19 @@
   resolved "https://registry.yarnpkg.com/@umijs/use-params/-/use-params-1.0.3.tgz#d91d6be6846dc8765dfd81c53cee3953b33f1eb2"
   integrity sha512-gob94yiBsyFNeRKG+zK2nAKxqVsEkYh4vWM3sSyqwidHoUR+C7MmZUHXBBtB1/9C0dpRAi9arkUYvzuNla6q7Q==
 
-"@umijs/utils@3.4.7", "@umijs/utils@^3.0.0-beta.12":
+"@umijs/utils@3.4.7":
   version "3.4.7"
   resolved "https://registry.yarnpkg.com/@umijs/utils/-/utils-3.4.7.tgz#68c4a7fcd49f8a2c36bd51919a1dca8ee297bbbe"
   integrity sha512-L2o9KxXzscRPbMrTVISZo8kKDNidoOrWccdDi5rt7wfa4hpDMxDU+JXB0J/VzTuDlzuHHzqUJ7ynqo321KwBrQ==
   dependencies:
     "@umijs/deps" "0.7.1"
+
+"@umijs/utils@3.5.8", "@umijs/utils@^3.0.0-beta.12":
+  version "3.5.8"
+  resolved "https://registry.yarnpkg.com/@umijs/utils/-/utils-3.5.8.tgz#13512d6e4c078ed0efd7aa335490b8ae5d49b044"
+  integrity sha512-jDbaI26dGJpx4qJLQol9QUqgMwBNCMEb3CJutInCqC/u+l76738e4hPTfvP6HCgd0z21CeF0eDck+/gT9U/zjw==
+  dependencies:
+    "@umijs/deps" "3.5.8"
 
 "@umijs/yorkie@^2.0.3":
   version "2.0.5"
@@ -6089,6 +6154,11 @@ esbuild-loader@~2.6.3:
     loader-utils "^2.0.0"
     type-fest "^0.20.2"
     webpack-sources "^2.2.0"
+
+esbuild@0.12.15:
+  version "0.12.15"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.12.15.tgz#9d99cf39aeb2188265c5983e983e236829f08af0"
+  integrity sha512-72V4JNd2+48eOVCXx49xoSWHgC3/cCy96e7mbXKY+WOWghN00cCmlGnwVLRhRHorvv0dgCyuMYBZlM2xDM5OQw==
 
 esbuild@^0.8.17:
   version "0.8.49"
